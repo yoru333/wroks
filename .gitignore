@@ -1,0 +1,73 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Downloaded models and OCR caches
+.paddlex/
+.paddleocr/
+/yolo11n.pt
+
+# Video files in any directory (case-insensitive extensions)
+*.[mM][pP]4
+*.[mM][oO][vV]
+*.[aA][vV][iI]
+*.[mM][kK][vV]
+*.[wW][eE][bB][mM]
+*.[mM]4[vV]
+*.[wW][mM][vV]
+*.[mM][pP][gG]
+*.[mM][pP][eE][gG]
+*.[mM][pP][eE]
+*.[mM]2[vV]
+*.[mM][pP][vV]
+*.[fF][lL][vV]
+*.[fF]4[vV]
+*.[aA][sS][fF]
+*.3[gG][pP]
+*.3[gG]2
+*.[tT][sS]
+*.[mM][tT][sS]
+*.[mM]2[tT][sS]
+*.[vV][oO][bB]
+*.[oO][gG][vV]
+*.[rR][mM]
+*.[rR][mM][vV][bB]
+*.[mM][xX][fF]
+*.[dD][aA][vV]
+*.[dD][iI][vV][xX]
+*.[dD][vV]
+*.[mM][jJ][pP][gG]
+*.[mM][jJ][pP][eE][gG]
+*.[qQ][tT]
+
+# Generated OCR reports and annotated images
+bib_numbers.csv
+*_bib_numbers.csv
+bib_summary.csv
+*_bib_summary.csv
+bib_numbers.txt
+*_result.jpg
+
+# Local debugging images
+/frame_*.jpg
+/crop_*.jpg
+/enhanced_*.jpg
+/green_runner_bib_crop.jpg
+/螢幕擷取畫面*.png
+/1107問題照片/
+/1107問題照片2/
